@@ -1,7 +1,7 @@
 import assign from 'nano-assign'
 // monaco-editor is in esm format, so cannot be resolved
 // eslint-disable-next-line import/no-unresolved
-import * as monaco from 'monaco-editor'
+import * as monaco from 'monaco-editor/esm/vs/editor/editor.api'
 
 export default {
   name: 'MonacoEditor',
